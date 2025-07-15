@@ -286,7 +286,7 @@ In the main program of `local-example.py`, the work is executed by this line:
 ```
 actor.run(max_token_time=1800, max_total_time=3600, max_tasks=10, max_scrub=2)
 ```
-The arguments in this function allow the user to speficy criteria to stop processing:
+The arguments in this function allow the user to specify criteria to stop processing:
 * `max_token_time`: maximum time (seconds) to run a single token before stopping and going to next token
 * `max_total_time`: maximum time (seconds) to run picas before stopping
 * `max_tasks`: number of tasks that are performed before stopping
